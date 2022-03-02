@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body bgcolor="pink">
+		<h1 align="center">Registration Form</h1>
+		<form>
+			<table border="0" width="500" align="center" cellpadding="10">
+				<tr>
+					<td><label for="name">Name</label></td>
+					<td><input type="text" id="name" placeholder="Enter Your Name" size="30"></td>
+				</tr>
+			
+				<tr>
+					<td><label for="father">Father's Name</label></td>
+					<td><input type="text" id="father" maxlength="20" placeholder="Enter Your Father's Name" size="30"></td>
+				</tr>
+			
+			
+				<tr>
+					<td><label for="mother">Mother's Name</label></td>
+					<td><input type="text" id="mother" maxlength="20" placeholder="Enter Your Mother's Name" size="30"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="email">E-mail</label></td>
+			        <td><input type="email" id="email" maxlength="20" placeholder="Enter Your E-mail"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="pass">Password</label></td>
+					<td><input type="password" id="pass" placeholder="Enter Your Password"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="date">Date Of Birth</label></td>
+					<td><input type="date" id="date" max="2022-3-31" min="2001-11-21"></td>
+				</tr>
+				
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" id="male" name="gender">
+						<label for="male">Male</label>
+						
+						<input type="radio" id="female" name="gender">
+						<label for="female">Female</label>
+						
+						<input type="radio" id="others" name="gender">
+						<label for="others">Others</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><label for="number">Phone </label></td>
+					<td><input type="tell" id="number" placeholder="Enter Your Phone Number" size="30"></td>
+				</tr>
+				
+				
+				<tr>
+					<td><label>Course</label></td>
+					<td>
+						<input type="checkbox" id="wd">
+						<label for="wd">Web Design</label>
+						
+						<input type="checkbox" id="wd2">
+						<label for="wd2">Web Development</label>
+						
+						
+						<input type="checkbox" id="gd">
+						<label for="gd">Graphics Design</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Blood Group</td>
+					<td>
+						<select>
+							<optgroup label="positive">
+							<option>AB+</option>
+							<option select>A+</option>
+							<option>B+</option>
+							<option>O+</option>
+							</optgroup>
+							
+							<optgroup label="negative">
+							<option>AB-</option>
+							<option>A-</option>
+							<option>B-</option>
+							<option>O-</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td><label>Address</label></td>
+					<td>
+						<textarea rows="10"></textarea>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td><input type="Submit" value="Register"</td>
+				</tr>
+					
+			</table>
+		</form>
+	</body>
+	
+
+</html>
